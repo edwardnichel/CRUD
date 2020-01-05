@@ -8,7 +8,7 @@
                     <footer class="page-footer font-small ">
                         <div class="footer-copyright text-center py-3 ">
                             © 2019 Copyright:
-                            <font color="#F93B0F">Bruna Portes, Edward Nichel. </font>
+                            <font color="#F93B0F"> Edward Nichel. </font>
                         </div>
                     </footer>
                 </div>
