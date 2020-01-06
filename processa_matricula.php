@@ -2,10 +2,10 @@
 
 include 'db.php';
 
-$id_aluno = $_POST['escolha_aluno'];
-$id_curso = $_POST['escolha_curso'];
+$ID_ALUNO = $_POST['escolha_aluno'];
+$ID_CURSO = $_POST['escolha_curso'];
 
-$query = "INSERT INTO aluno_curso(id_aluno, id_curso) VALUES($id_aluno, $id_curso)";
+$query = "INSERT INTO aluno_curso(ID_ALUNO, ID_CURSO) VALUES($ID_ALUNO, $ID_CURSO)";
 
 mysqli_query($conexao, $query);
 
