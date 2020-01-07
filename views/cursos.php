@@ -1,10 +1,11 @@
 <div id="conteudo">
-    <h1>cursos</h1>
-    <a href="?pagina=inserir_curso">Inserir novo curso</a>
-    <table style="border: 1px solid #ccc; width: 100%">
+    <h1>Cursos</h1>
+    <a class="btn btn-success" href="?pagina=inserir_curso">Inserir novo curso</a><br><br>
+    <table class="table">
         <tr>
             <th>Nome curso </th>
             <th>Carga horária </th>
+            <th>Editar</th>
             <th>Deletar</th>
         </tr>
 
@@ -14,7 +15,7 @@
             echo '<td>' . $linha['carga_horaria'] . '</td>';
 
         ?>
-
+            <td><a href="?pagina=inserir_curso&editar=<?php echo $linha['ID_CURSO']; ?>">Editar</a></td>
             <td><a href="deleta_curso.php?ID_CURSO=<?php echo $linha['ID_CURSO']; ?>">Deletar</a></td>
             </tr>
 

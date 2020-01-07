@@ -1,7 +1,7 @@
 <div id="conteudo">
     <h1>Matriculas</h1>
-    <a href="?pagina=inserir_matricula">Inserir nova matricula</a>
-    <table style="border: 1px solid #ccc; width: 100%">
+    <a class="btn btn-success" href="?pagina=inserir_matricula">Inserir nova matricula</a><br><br>
+    <table class="table">
         <tr>
             <th> Nome aluno </th>
             <th> Nome curso </th>
