@@ -3,11 +3,11 @@
     <h1>Inserir novo aluno</h1>
     <form method="post" action="processa_aluno.php">
         <br>
-        <label> Nome aluno:</label><br>
-        <input type="text"  class="form-control"  name="nome_aluno" placeholder="Insira o nome do aluno">
+        <label class="badge badge-pill badge-secondary"> Nome aluno:</label><br>
+        <input type="text" class="form-control" name="nome_aluno" placeholder="Insira o nome do aluno">
         <br>
         <br>
-        <label> Data de nascimento:</label><br>
+        <label class="badge badge-pill badge-secondary"> Data de nascimento:</label><br>
         <input type="text" class="form-control" name="data_nascimento" placeholder="Insira a data de nascimento">
         <br>
         <br>
@@ -21,11 +21,11 @@
             <form method="post" action="edita_aluno.php">
                 <input type="hidden" class="form-control" name="ID_ALUNO" value="<?php echo $linha['ID_ALUNO']; ?>">
                 <br>
-                <label> Nome aluno:</label><br>
+                <label class="badge badge-pill badge-secondary"> Nome aluno:</label><br>
                 <input type="text" class="form-control" name="nome_aluno" placeholder="Insira o nome do aluno" value="<?php echo $linha['nome_aluno']; ?>">
                 <br>
                 <br>
-                <label> Data de nascimento:</label><br>
+                <label class="badge badge-pill badge-secondary"> Data de nascimento:</label><br>
                 <input type="text" class="form-control" name="data_nascimento" placeholder="Insira a data de nascimento" value="<?php echo $linha['data_nascimento']; ?>">
                 <br>
                 <br>
