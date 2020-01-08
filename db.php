@@ -3,7 +3,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "usbw";
-$db = "aula_php";
+$db = "database_php";
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $db);
 
