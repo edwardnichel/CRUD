@@ -3,9 +3,10 @@
   
   
 
+
 ## Como usar
 
-  Programado em PHP, será necessário rodar no servidor local, por não necessitar de instalação, recomendo usar [USBWebServer](https://www.usbwebserver.net/webserver/) para o PHP.
+  Programado em PHP, será necessário rodar no servidor local. Por não necessitar de instalação, recomendo usar [USBWebServer](https://www.usbwebserver.net/webserver/) para o PHP.
   
   Login: admin
   
